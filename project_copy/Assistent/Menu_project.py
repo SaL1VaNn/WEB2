@@ -5,12 +5,7 @@ from os import listdir
 import AddressBookBot
 import NoteBookBot
 import time
-from flask import Flask
 
-app = Flask(__name__)
-@app.route('/')
-def hello():
-    return  menu()
 
 
 def menu ():
@@ -57,5 +52,5 @@ def menu ():
 
  
 if __name__ == '__main__':
- app.run()
+ menu()
  
