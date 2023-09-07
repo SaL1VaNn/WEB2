@@ -2,7 +2,7 @@
 name = "personal-assiste3-0"
 version = "0.3.0"
 description = ""
-authors = ["Anton Mescheryakov"]
+authors = ["Denis MAshtak"]
 readme = "README.md"
 packages = [{include = "personal_assiste3"}]
 
